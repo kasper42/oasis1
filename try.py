@@ -6,9 +6,6 @@ api = '9dk3g223t3pk57oubeer7h3bc9'
 local = {"http":"http://127.0.0.1:8080", "https":"http://127.0.0.1:8080"}
 target = 'http://bwapp.blackbox.id'
 
-isNewSession = True
-sessionName = 'OASIS'
-
 zap = ZAPv2(apikey=api)
 
 print 'Accessing target %s' %target
